@@ -1,0 +1,22 @@
+{
+  "title": "Java Recursion",
+  "description": "recursion",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "text": "step1.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  },
+  "interface": {
+    "layout": "ide"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": false,
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file"
+    }
+  ]
+}
+

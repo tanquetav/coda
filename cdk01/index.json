@@ -1,0 +1,31 @@
+{
+  "title": "CDKTF",
+  "description": "CDKTF k8s",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "text": "step01/step1.md",
+        "verify": "step01/verify.sh"
+      },
+      {
+        "text": "step02/step2.md",
+        "verify": "step02/verify.sh"
+      },
+      {
+        "text": "step03/step3.md"
+      }
+
+    ]
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  },
+  "interface": {
+    "layout": "ide"
+  }
+}
